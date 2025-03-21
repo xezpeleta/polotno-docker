@@ -1,0 +1,6 @@
+services:
+  polotno-studio:
+    build: .
+    container_name: polotno
+    ports:
+      - 5173:5173
